@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "nodenext",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "nodenext",
+    "sourceMap": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "resolvePackageJsonImports": true
+  },
+  "lib": ["es2015"],
+  "include": [
+    "src/**/*",
+    "src/**/*.json",
+  ],
+  "exclude": [
+    "node_modules",
+    "client/**/*",
+    "dist/**/*"
+  ]
+}

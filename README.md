@@ -1,4 +1,5 @@
 # Тестовое задание ROCKET
+Представляет из себя fullstack API-приложение для доступа к сделкам и их контактам amoCRM (read-only), а также небольшое представление на Vue, которое использует данный API.
 
 ## Установка и запуск
 1) Клонируйте репозиторий
@@ -10,3 +11,6 @@
 
 ### Получение токенов для работы с api amoCRM
 Чтобы получить access и refresh токены достаточно перейти в папку "src",  заполнить данные в файле "amo-client.json" и запустить "node get-auth-code.js"
+### Использованный стек
+frontend: Vue3(options api) + Vuetify + TypeScript
+backend: Node.js + Express.js(REST) + TypeScript + OAuth 2

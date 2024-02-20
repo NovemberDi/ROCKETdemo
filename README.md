@@ -12,5 +12,5 @@
 ### Получение токенов для работы с api amoCRM
 Чтобы получить access и refresh токены достаточно перейти в папку "src",  заполнить данные в файле "amo-client.json" и запустить "node get-auth-code.js"
 ### Использованный стек
-frontend: Vue3(options api) + Vuetify + TypeScript
+frontend: Vue3(options api) + Vuetify + TypeScript\
 backend: Node.js + Express.js(REST) + TypeScript + OAuth 2
